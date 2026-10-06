@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            display: flex;justify-content: center;align-items: center;
+        }
+        .con{
+            height: 60%;
+            width: 80%;
+            /* border: 1px solid black; */
+            /* margin: 50px 50px 50px 150px; */
+            display: flex;
+            /* border-radius: 4px;             */
+        }
+        .box1{
+            height: 100%;
+            width: 2%;
+            /* border: 1px solid black; */
+            border-radius: 10px;
+            background-color: navy;
+        }
+        .box2{
+            height: 100%;
+            width: 63%;
+            background-color: whitesmoke;
+            /* border: 1px solid black; */
+            /* border-radius: 4px; */
+        }
+        .box2 h1{
+            margin-left:50px ;
+            font-size: 116px;
+            color: navy;
+            font-weight: 700;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding-left: 10px;
+            /* word-spacing: 20px; */
+            /* text-align: center; */
+            /* text-wrap-mode: wrap; */
+        }
+        .box3{
+            height: 100%;
+            width: 35%;
+            box-shadow: 3px 3px 3px;
+            /* border: 1px solid black; */
+            /* display: flex; */
+            border-radius: 30px;
+        }
+        .top{
+            width: 100%;
+            height: 30%;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            /* border: 1px solid black; */
+        }
+        .top-in{
+            display: flex;
+            justify-content: center;
+            align-items: end;
+            width: 100%;
+            height: 90%;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+            /* border: 1px solid black; */
+            background-color: navy;
+        }
+        .circle{
+            position: absolute;
+            top: 25%;
+            height: 120px;
+            width: 120px;
+            background-color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid navy;
+
+        }
+        img{
+            height: 90%;
+            width: 90%;
+            border-radius: 100%;
+        }
+        .bottom{
+            width: 100%;
+            height: 70%;
+            /* border: 1px solid black; */
+        }
+        .a{
+            padding-top: 15px;
+        }
+        .botton{
+            height: 50px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            gap: 30px;
+        }
+        .icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            height: 20%;
+            font-size: 14px;
+        }
+        .last{
+               display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 20px;
+            height: 20%;
+            font-size: 20px;
+        }
+        .fa-facebook{
+            color: blue;
+        }
+        .fa-instagram{
+            color: red;
+        }
+        .fa-github{
+            color: black;
+        }
+        .fa-linkedin{
+            color: blue;
+        }
+        .b1,.b2{
+            height: 100%;
+            background-color: navy;
+            width: 40%;
+            font-size: 20px;
+            border-radius: 30px;
+            text-align: center;
+            line-height: 50px;
+            justify-content: center;
+        }
+        h2{
+            font-size: x-large;
+        }
+        h1{
+            font-size:5000px;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="box1"></div>
+        <div class="box2">
+            <h1>
+                Profile Card UI/UX Design
+            </h1>
+        </div>
+        <div class="box3">
+            <div class="top">
+                <div class="top-in">
+                    <div class="circle">
+                        <img src="Desert.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <h2 align="center" class="a">Software Developer</h2>
+                <h2 align="center" class="a">Dezyne Ecole College</h2>
+                <h2 align="center" class="a">BCA 2<sup>nd</sup> YEAR</h2>
+                <div class="icon" >
+                    <i class="fa fa-brands fa-facebook fa-3x"></i>
+                    <i class="fa fa-brands fa-instagram fa-3x"></i>
+                    <i class="fa fa-brands fa-github fa-3x"></i>
+                    <i class="fa fa-brands fa-linkedin fa-3x"></i>
+                    <i class="fa fa-brands fa-behance fa-3x"></i>
+                </div>
+                <div class="botton" >
+                    <div class="b1">Subscribe</div>
+                    <div class="b2">Message</div>
+                </div>
+                <div class="last">
+                    <i class="fa fa-solid fa-heart fa-1x"></i>60.1k
+                    <i class="fa fa-solid fa-comment fa-1x"></i>60.1k
+                    <i class="fa fa-solid fa-share fa-flip-horizontal fa-1x"></i>60.1k
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
